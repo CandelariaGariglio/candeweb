@@ -1,0 +1,74 @@
+body h1 {
+    font-family: fantasy;
+    color: rgb(180, 185, 252);
+}
+p {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    color: rgb(198, 198, 221);
+    line-height: 18px;
+    text-align: start;
+}
+
+.menu-logo {
+    display: flex;  /* Activa el modelo de caja flexible */
+    align-items: flex-start;  /* Centra verticalmente los elementos */
+  }
+  
+  .logo {
+    margin-right: 200px;  /* Agrega un espacio entre el logo y el menú */
+  }
+
+
+    img {
+        width: 50%; /* Establece el ancho al 100% del contenedor */
+        max-height: 50%; /* Establece la altura máxima al 100% del contenedor */
+    }
+
+
+ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    letter-spacing: 2pt;
+    color: rgb(180, 185, 252);
+    padding: 120px;
+    line-height: 2.1;
+    font-size: 15px;
+
+}
+
+
+.menu-vertical ul {
+    padding: 50; /* Elimina el relleno predeterminado de la lista */
+}
+
+.menu-vertical li {
+    margin-bottom: 10px; /* Agrega un espacio entre elementos de lista */
+}
+
+.menu-vertical a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #e5ebee; /* Cambia el color del texto de los enlaces */
+}
+.menu-vertical  a:hover {
+    background-color: #333333; /* Cambio de color de fondo al pasar el puntero */
+    color: #5006fc; /* Cambio de color del texto al pasar el puntero */
+}
+body {
+background-color: rgb(50, 50, 53);
+}
+
+.texto-debajo {
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color:  rgb(50, 50, 53); /* Cambia el color de fondo si lo deseas */
+    padding: 10px; /* Agrega espacio alrededor del texto */
+    position: relative; /* Establece la posición relativa para el contenedor */
+    top: -100px; /* Ajusta la posición vertical, puedes cambiar este valor según sea necesari*/
+    font-size: 30px; /* Cambia el tamaño del texto; puedes ajustar el valor según tus preferencias */
+}
+header {
+    margin-top: -100px; /* Ajusta este valor según sea necesario para reducir el espacio */
+}
+#contacto {
+    color: #e5ebee;
+}
